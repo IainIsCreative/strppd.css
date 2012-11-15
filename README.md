@@ -1,7 +1,7 @@
 strppd.css
 ==========
 
-(https://github.com/iainspad/strppdcss/img/strppd.jpg)
+![strrpd.css](https://github.com/iainspad/strppdcss/img/strppd.jpg)
 
 A CSS reset based on the classic Meyer reset. Included are extra resets for mobiles as well as interactive element settings, and typographical styling.
 
