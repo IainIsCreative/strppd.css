@@ -39,7 +39,7 @@ time, mark, audio, video {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {display: block;}
 
-/*---Universal Selector to add additional resets, such as enhanced legibility, text-size adjust and webkit tap highlighting---*/
+/*---Universal Selector to add additional resets, such as text-size adjust and tap highlighting---*/
 
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
