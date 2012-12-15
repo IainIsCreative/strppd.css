@@ -67,8 +67,6 @@ caption, th, td {
 /*---Removes Webkit form styling on Mobiles---*/
 
 input, textarea {
-	-webkit-appearance: none;
-	-moz-appearance: none; 
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 }
