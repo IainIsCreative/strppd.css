@@ -9,7 +9,7 @@ Finally, there's also form and interactive element styling so forms and navigati
 
 Be sure to contribute any improvements and changes to this reset as you see fit. Have fun!
 
-v. 1.0
+v. 1.1
 License: Public Domain
 
 */
@@ -66,6 +66,12 @@ caption, th, td {
 
 /*---Removes Webkit form styling on Mobiles---*/
 
+input:not(type="checkbox") {
+	/* Chrome hides checkboxes on -webkit-appearance, so use the :not selector. */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
 input, textarea {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -73,7 +79,7 @@ input, textarea {
 
 /*---Additional Form resets---*/
 
-button, input[type="button"] {background: none;}
+button, input[type="button"], input[type="submit"] {background: none;}
 
 :required {
     -webkit-box-shadow: none;
