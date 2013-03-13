@@ -66,7 +66,7 @@ caption, th, td {
 
 /*---Removes Webkit form styling on Mobiles---*/
 
-input:not(type="checkbox") {
+input:not([type="checkbox"]), textarea {
 	/* Chrome hides checkboxes on -webkit-appearance, so use the :not selector. */
 	-webkit-appearance: none;
 	-moz-appearance: none;
