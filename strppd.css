@@ -108,7 +108,7 @@ pre {
 
 blockquote, q {quotes: "" "";}
 
-blockquote:before, blockquote:after, q:before,  q:after, {content: "";}
+blockquote:before, blockquote:after, q:before,  q:after {content: "";}
 
 /*---Interactive Element Settings---*/
 
